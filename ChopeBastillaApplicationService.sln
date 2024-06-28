@@ -7,7 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{E7FF13
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonDomain", "CommonDomain", "{F4405BEB-8AE1-47E4-989B-A60C83317C07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChopeBastillaApplicationService.CommonDomian", "ChopeBastillaApplicationService.CommonDomian\ChopeBastillaApplicationService.CommonDomian.csproj", "{D32DE17A-F33A-401E-9F89-B3F12BDB7090}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChopeBastillaApplicationService.CommonDomian", "ChopeBastillaApplicationService.CommonDomian\ChopeBastillaApplicationService.CommonDomian.csproj", "{D32DE17A-F33A-401E-9F89-B3F12BDB7090}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChopeBastillaApplicationService.BookServiceDomain", "ChopeBastillaApplicationService.BookServiceDomain\ChopeBastillaApplicationService.BookServiceDomain.csproj", "{752782DC-597B-4EFE-A63D-AC025A9AFE4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BookService", "BookService", "{583D5BD6-2DE5-4B1E-8378-5F13E5C046BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E361826E-EB2C-4D89-87BB-0D5D9296A71D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainCore", "DomainCore", "{DCAC814F-8396-4D53-A3B9-AB87A8B73F08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +27,10 @@ Global
 		{D32DE17A-F33A-401E-9F89-B3F12BDB7090}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D32DE17A-F33A-401E-9F89-B3F12BDB7090}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D32DE17A-F33A-401E-9F89-B3F12BDB7090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{752782DC-597B-4EFE-A63D-AC025A9AFE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{752782DC-597B-4EFE-A63D-AC025A9AFE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{752782DC-597B-4EFE-A63D-AC025A9AFE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{752782DC-597B-4EFE-A63D-AC025A9AFE4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +38,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F4405BEB-8AE1-47E4-989B-A60C83317C07} = {E7FF1350-FC61-432B-8E04-297214604802}
 		{D32DE17A-F33A-401E-9F89-B3F12BDB7090} = {F4405BEB-8AE1-47E4-989B-A60C83317C07}
+		{752782DC-597B-4EFE-A63D-AC025A9AFE4D} = {DCAC814F-8396-4D53-A3B9-AB87A8B73F08}
+		{E361826E-EB2C-4D89-87BB-0D5D9296A71D} = {583D5BD6-2DE5-4B1E-8378-5F13E5C046BF}
+		{DCAC814F-8396-4D53-A3B9-AB87A8B73F08} = {E361826E-EB2C-4D89-87BB-0D5D9296A71D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0C7C0DA6-9719-4C1E-8E63-D4210732804E}
