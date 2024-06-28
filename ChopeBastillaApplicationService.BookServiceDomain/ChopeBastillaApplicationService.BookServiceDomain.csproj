@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ChopeBastillaApplicationService.CommonDomian\ChopeBastillaApplicationService.CommonDomian.csproj" />
+  </ItemGroup>
+
 </Project>
