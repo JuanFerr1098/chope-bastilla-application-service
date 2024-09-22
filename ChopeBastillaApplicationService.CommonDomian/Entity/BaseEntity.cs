@@ -1,12 +1,13 @@
-﻿
-
-using ChopeBastillaApplicationService.CommonDomian.ValueObject;
-
-namespace ChopeBastillaApplicationService.CommonDomian.Entity
+﻿namespace ChopeBastillaApplicationService.CommonDomian.Entity
 {
     public abstract class BaseEntity<ID> /*where ID : BaseId<object>*/
     {
         public ID? Id { get; set; }
+
+        protected BaseEntity(ID? id)
+        {
+            Id = id;
+        }
 
         public override bool Equals(object? obj)
         {

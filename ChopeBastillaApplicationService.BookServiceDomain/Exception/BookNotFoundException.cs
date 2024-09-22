@@ -1,6 +1,4 @@
-﻿
-
-namespace ChopeBastillaApplicationService.BookServiceDomain.Exception
+﻿namespace ChopeBastillaApplicationService.BookServiceDomain.Exception
 {
     public class BookNotFoundException : BookDomainException
     {

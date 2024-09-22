@@ -1,5 +1,4 @@
-﻿
-using ChopeBastillaApplicationService.CommonDomian.CommonException;
+﻿using ChopeBastillaApplicationService.CommonDomian.CommonException;
 
 namespace ChopeBastillaApplicationService.BookServiceDomain.Exception
 {

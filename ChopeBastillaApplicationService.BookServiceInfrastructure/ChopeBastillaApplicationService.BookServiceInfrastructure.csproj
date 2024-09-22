@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ChopeBastillaApplicationService.CommonDomian\ChopeBastillaApplicationService.CommonDomian.csproj" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ValueObject\" />
+    <ProjectReference Include="..\ChopeBastillaApplicationService.BookServiceDomain\ChopeBastillaApplicationService.BookServiceDomain.csproj" />
   </ItemGroup>
 
 </Project>
