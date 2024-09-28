@@ -16,7 +16,7 @@ namespace ChopeBastillaApplicationService.BookServiceAPI
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddApplicationService();
-            builder.Services.AddInfrastructureService();
+            builder.Services.AddInfrastructureService(builder.Configuration);
 
             var app = builder.Build();
 
